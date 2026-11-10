@@ -1,0 +1,13 @@
+# secrets
+.env
+.env.*
+
+# local workspace (never commit)
+go.work
+go.work.sum
+
+# build and test output
+*.out
+*.test
+coverage.*
+/bin/
